@@ -1,0 +1,72 @@
+h1{
+    color:red;
+    margin:30px;
+}
+
+.header *{
+    border:solid;
+
+   
+}
+.menu a{
+    margin:40px;
+
+}
+.menu{
+    margin: 20px;
+}
+.header{
+    
+    background-color:plum;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.page_description{
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    text-align: center;
+    background-color: #dc6432;
+}
+
+body{
+    background-color: #808080;
+}
+
+
+.game{
+    position:relative;
+
+}
+
+
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.game:hover p{
+    opacity:1;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
